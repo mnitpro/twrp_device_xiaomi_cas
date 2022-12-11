@@ -12,11 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, device/xiaomi/cas/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cas
-PRODUCT_NAME := twrp_cas
+PRODUCT_NAME := omni_cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC
 PRODUCT_MANUFACTURER := xiaomi
+PB_MAINTAINER := Zinger
