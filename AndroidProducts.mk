@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cas.mk
+    $(LOCAL_DIR)/twrp_cas.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_cas-user \
-    omni_cas-userdebug \
-    omni_cas-eng
+    twrp_cas-user \
+    twrp_cas-userdebug \
+    twrp_cas-eng
